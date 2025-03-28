@@ -1,0 +1,14 @@
+{
+  "name": "vectorSearchIndex",
+  "type": "vectorSearch",
+  "collectionName": "embedded_data",
+  "database": "sample_db",
+  "fields": [
+    {
+      "type": "vector",
+      "path": "profile_embedding",
+      "numDimensions": 1536,
+      "similarity": "euclidean"
+    }
+  ]
+}
