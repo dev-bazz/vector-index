@@ -1,12 +1,12 @@
 {
   "name": "vectorSearchIndex",
   "type": "vectorSearch",
-  "collectionName": "embedded_data",
-  "database": "sample_db",
+  "collectionName": "user",
+  "database": "dev",
   "fields": [
     {
       "type": "vector",
-      "path": "profile_embedding",
+      "path": "movie_embedding",
       "numDimensions": 1536,
       "similarity": "euclidean"
     }
